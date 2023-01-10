@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Header.css">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <section class="header">
+            <nav class="navbar navbar-expand-lg bg-light shadow p-3 mb-5 bg-body rounded">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="logo-social.webp" style="height: 70px;" class="img-fluid"
+                            alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <div class="input-group recherche ">
+                                <input type="text" class="form-control" placeholder="" aria-label="Recipient's username"
+                                    aria-describedby="button-addon2">
+                                <button class="btn btn-outline-light bg-dark" type="button"
+                                    id="button-addon2">Button</button>
+                            </div>
+                            <button type="button"
+                                class="btn btn-warning mx-5 bouton_warning text-light">Warning</button>
+                            <li class="nav-item  lien_connexion ">
+                                <a class="nav-link" href="#">Connexion/Déconnexion</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="section_nav">
+            <ul class="nav barre shadow-sm p-3 mb-5  rounded">
+                <li class="nav-item">
+                    <a class="nav-link text-light " aria-current="page" href="#">Véhicules</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Offres d'emploi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Immobilier</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light ">Multimédia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light">Maison</a>
+                </li>
+                <div class="nav_link  fs-6 ">
+                    <li class="nav-item Categories">
+                        <a class="nav-link text-light" href="#"><i class="fa fa-th fa-x" aria-hidden="true"></i> Autres
+                            Categories</a>
+                    </li>
+                    <li class="nav-item boutiques">
+                        <a class="nav-link text-light"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            Boutiques</a>
+                    </li>
+                    <li class="nav-item promo">
+                        <a class="nav-link text-warning"><i class="fa fa-handshake-o" aria-hidden="true"></i> Promo</a>
+                    </li>
+                </div>
+            </ul>
+        </section>
+        <!-- SECTION Top -->
+        <section class="blog_categories">
+            <div class="container-fluid">
+                <center>
+                    <h1>Tout acheter, tout vendre , tout simplement</h1>
+                </center>
+                <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./../images/voiture.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Jeep Grand Cherockee</h5>
+                                            <p class="card-text">9 800000 F Cfa
+
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="./../images/terrain.jpg" class="card-img-top img-fluid" alt="..."
+                                            style="height: auto;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Terrain à vendre à wokam</h5>
+                                            <p class="card-text">120 000 000 F Cfa</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://i.roamcdn.net/hz/ed/listing-thumb-543w/5e72883d2bf8a9443ba4557afc388827/-/horizon-files-prod/ed/picture/qxnq04m/f5e102e1a46011445970cb130db92f4ef749272f.jpg"
+                                            class="card-img-top img-fluid img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Done a vendre </h5>
+                                            <p class="card-text">350 000 F Cfa</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/3722b90f625e29d2a1fa87a4e593778d/-/horizon-files-prod/ed/picture/qweem9qk/3b91f80545bc83ffb6b4e5cf476d43b7c70566b1.jpg"
+                                            class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Voiture à vendre Focus</h5>
+                                            <p class="card-text">9 900 000 F Cfa</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/90c3c255e577c2eadebe789a314fee91/-/horizon-files-prod/ed/picture/qq4qj6ep/dd670493ee314385ce4a07cc0c55d87148799dbe.jpg"
+                                            class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Salon à manger</h5>
+                                            <p class="card-text">200 000 F Cfa</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://i.roamcdn.net/hz/ed/listing-thumb-543w/903e6aaff0296b271f3f7458a0e1bfb2/-/horizon-files-prod/ed/picture/q6xx7j8d/87b95c07ce5bdec507bdea123993fa58be79b327.jpg"
+                                            class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Ordinateur portable à vendre</h5>
+                                            <p class="card-text">225 000 F Cfa</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/ec835bd88d52a6098cc12539061effd5/-/horizon-files-prod/ed/picture/qend6nqd/852ff640d5a8cf8bb191e974835e1bbfa979d2a1.jpg"
+                                            class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tapis bureau à vendre </h5>
+                                            <p class="card-text">85 000 F Cfa</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/218411277b624766b46ecf59c3fa642b/-/horizon-files-prod/ed/picture/qm5m7zpq/34f39aae591de74df154f1677c7bc2756a8e007f.jpg"
+                                            class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Ps4 à vendre </h5>
+                                            <p class="card-text">125 000 F Cfa </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/38fa02e84fa690182571871b1f697395/-/horizon-files-prod/ed/picture/q566wjg7/6ebfa8366a5c2ebf18821f775c0d4f9601640708.jpg"
+                                            class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Salon à vendre </h5>
+                                            <p class="card-text">567 000 F Cfa</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden ">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- section Categories -->
+        <section class="blog_categories">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-car icon_far" aria-hidden="true"></i></div>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Véhicules</h5>
+                                <p>Voitures <br />Motos & scooters <br />Location de voiture<br />Equipement & piéces
+                                    <br />Utilitaires,vans & minibus
+                                </p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-shopping-bag  icon_far"
+                                        aria-hidden="true"></i></div>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Offres d'emploi</h5>
+                                <p>Emploi marketing et communication <br />Emploi vente et commercial<br />Emploi
+                                    services à la personne<br />Emploi transport et logique<br />Emploi enseignement et
+                                    formation </p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-home fa-2x icon_far" aria-hidden="true"></i>
+                                </div>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Immobilier</h5>
+                                <p>Appartements à louer <br />Appartements meublés<br />Emploi services à la
+                                    personne<br />Emploi transport et logique<br />Emploi enseignement et formation </p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-desktop icon_far fa-x" aria-hidden="true"></i>
+                                </div>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Immobilier</h5>
+                                <p>Appartements à louer <br />Appartements meublés<br />Emploi services à la
+                                    personne<br />Emploi transport et logique<br />Emploi enseignement et formation </p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-home fa-2x icon_far" aria-hidden="true"></i>
+                                </div>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title ">Maison</h5>
+                                <p>Mobilier <br />Electromenager <br />Décoration;ligne de maison <br />vaisselle
+                                    <br />Jardinage, bricolage
+                                </p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-filter icon_far fa-2x" aria-hidden="true"></i>
+                                </div>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Offres d'emploi</h5>
+                                <p>Emploi marketing et communication <br />Emploi vente et commercial<br />Emploi
+                                    services à la personne<br />Emploi transport et logique<br />Emploi enseignement et
+                                    formation </p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-spotify fa-2x icon_far"
+                                        aria-hidden="true"></i></div>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Immobilier</h5>
+                                <p>Appartements à louer <br />Appartements meublés<br />Emploi services à la
+                                    personne<br />Emploi transport et logique<br />Emploi enseignement et formation </p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-user icon_far fa-x " aria-hidden="true"></i>
+                                </div>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Immobilier</h5>
+                                <p>Appartements à louer <br />Appartements meublés<br />Emploi services à la
+                                    personne<br />Emploi transport et logique<br />Emploi enseignement et formation </p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-handshake-o icon_far fa-x"
+                                        aria-hidden="true"></i></div>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Demandes d'emploi</h5>
+                                <p>Autres demandes d'emploi <br />Nettoyage,personnel
+                                    <br />Chauffeur,conducteur<br />Nounous, garde d'enfants
+                                    <br />Restauration
+                                </p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-wrench icon_far fa-2x" aria-hidden="true"></i>
+                                </div>
+                            </center>
+                            <div class="card-body">
+                                <h6 class="card-title">Materiaux,outils & équipements</h6>
+                                <p>Matériel pro<br />Matériel de construction<br />Energies & groupes électrogéne
+                                    <br />Caméras de surveillance<br />Equipement médical
+                                </p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-truck icon_far fa-x" aria-hidden="true"></i>
+                                </div>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title fs-4">Agroalimentaire</h5>
+                                <p>Alimentation <br />Agriculture<br /><br /><br /><br /></p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <div class="card">
+                            <center>
+                                <div class="voiture_icon"><i class="fa fa-sign-language icon_far fa-x"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Immobilier</h5>
+                                <p>Appartements à louer <br />Appartements meublés<br />Emploi services à la
+                                    personne<br />Emploi transport et logique<br />Emploi enseignement et formation </p>
+                                <h6 class="text-warning">Tout parcourir</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- Section paragraphe -->
+        <section class="blog_paraphrase mt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <center class="mt-4">
+                            <h5 class="">Développez votre business.Commencez à vendre dés aujourd'hui avec Expat-Dakar ! </h5>
+                            <h6>Nous vous offrons des solution adaptées à vos besoin pour vous permettre d'accélérer votre business.</h6>
+                            <button type="button" class="btn btn-dark ">En savoir plus </button>
+                            
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section footer -->
+        <section class="mt-5">
+            <nav class="navbar navbar-expand-lg barre_footer shadow  p-3 mb-5  rounded">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <h5 class="text-light">Restez informés avec notre newsletter</h5>
+                        <p class=" text-light TEXT1">Restez notre sélection <br/> hebdomadaire des meilleurs offres !</p>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <input class="input_footer">
+                    <button type="button " class="bouton_footer">Je m'abonne</button>
+                </div>
+            </nav>
+        </section>
+        <!-- section footer2 -->
+        <section class="blog_footer2">
+            <div class="container-fluid ">
+                <div class="row row_footer2 ">
+                    <div class="col-sm-12 col-md-2 mt-5">
+                        <p class="text-light">Qui sommes-nous ?</p>
+                        <p class="text-light">Deals</p>
+                        <p class="text-light">Les Boutiques</p>
+                    </div>
+                    <div class="col-sm-12 col-md-2 mt-5">
+                        <p class="text-light">Contact</p>
+                        <p class="text-light">Blog</p>
+                    </div>
+                    <div class="col-sm-12 col-md-2 mt-5">
+                        <p class="text-light">Vendre en ligne</p>
+                        <p class="text-light">Conditions et Charte</p>
+                        <p class="text-light">d'utilisation</p>
+                    </div>
+                    <div class="col-sm-12 col-md-2 mt-5">
+                        <p class="text-light">Téléchargez Notre APPLI</p>
+                        <hr class="text-light" />
+                        <img src="./../images/playstore.png" style="height: 45px;" alt="playstore"
+                            class="img-fluid image_footer">
+                    </div>
+                    <div class="col-sm-12 col-md-2 mt-5"></div>
+                    <div class="col-sm-12 col-md-2 mt-5">
+                        <p class="text-light">Suivez EXPA-DAKAR</p>
+                        <hr class="text-light" />
+                        <div class="blog_icons">
+                            <i class="fa fa-instagram fa-2x instagram" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-square fa-2x facebook" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square fa-2x linkedin" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square fa-2x twitter" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <h6 class="text-light h6_footer3">SITES INTERNATIONAUX</h6>
+                        <hr class="text-light " style="width: 350px;">
+                        <div class="d-flex div_para">
+                            <p class="text-light">ROAM</p>
+                            <p>Qefira</p>
+                            <p>Pigiame</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section footer3 -->
+        <section class="blog_footer3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 mt-2 ">
+                        <P>Tous droits réservés &copy; 2016-2023 Expat-Dakar</P>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
